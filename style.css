@@ -53,14 +53,14 @@ footer {
 .footer-links {
   display: flex;
   justify-content: center;
-  gap: 30px;               
+  gap: 90px;               
 }
 
 
 .nav-links {
   display: flex;
   justify-content: center;  
-  gap: 40px;                
+  gap: 120px;                
 }
 
 .nav-links a {
