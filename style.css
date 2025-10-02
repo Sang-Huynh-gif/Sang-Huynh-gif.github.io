@@ -28,4 +28,50 @@ a {
     color: white;
   font-family: 'Inter', sans-serif;
   font-size: 20px;
+  text-decoration: none;
+}
+
+header {
+  background: #111;       
+  padding: 20px 0;
+}
+
+footer {
+  background: #111;
+  padding: 15px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;               
+}
+
+
+.nav-links {
+  display: flex;
+  justify-content: center;  
+  gap: 40px;                
+}
+
+.nav-links a {
+  color: white;             
+  text-decoration: none;    
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;        
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00bfff;           
 }
