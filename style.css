@@ -1,7 +1,7 @@
 
 
 h1 {
-    font-size: 48px;
+    font-size: 54px;
     text-align: center;
 }
 h2 {
@@ -23,6 +23,29 @@ p {
   font-size: 26px;
   text-align: center;
 }
+
+.main-title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: 40px;  
+  text-align: center;
+}
+
+.h1-button {
+  display: inline-block;
+  max-width: fit-content;
+  padding: 12px 24px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.h1-button:hover {
+  background-color: #0d0d0d;
+}rgb(131, 134, 137)
+
 
 a {
     color: white;
