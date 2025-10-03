@@ -19,6 +19,11 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+
 p {
   font-size: 26px;
   text-align: center;
