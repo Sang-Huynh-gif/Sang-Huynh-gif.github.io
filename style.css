@@ -79,6 +79,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: 1000; 
 }
 
 .footer-links {
@@ -123,7 +124,7 @@ padding-right: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
   margin: 10px 0;}
 
-.content-photo {
+ .content-photo {
   width: 80%; 
   height: auto; 
   margin-top: 80px; 
@@ -131,4 +132,15 @@ padding-right: 10px;
   margin-right: auto;  
   display: block;      
   max-width: 100%; 
+  margin-bottom: 120px; 
+  -webkit-mask-image: radial-gradient(
+      ellipse at center, 
+      black 60%,         
+      transparent 100%    
+  );
+  mask-image: radial-gradient(
+      ellipse at center, 
+      black 60%, 
+      transparent 100%
+  );
 }
