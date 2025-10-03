@@ -3,15 +3,18 @@
 h1 { font-size: 44px;
 text-align: center; }
 h2, h3 { font-size: 22px;
-text-align: center;}
+text-align: center;
+padding: 0 10px;}
 p { font-size: 18px;
-text-align: center; }
+text-align: center;
+padding: 0 10px; }
 
 
 body {
   background-color: black;
   color: white;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -35,9 +38,9 @@ body {
 }
 
 .main-title {
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-top: 40px;  
+  margin-top: 20px;  
   text-align: center;
 }
 
@@ -115,4 +118,6 @@ padding-left: 10px;
 padding-right: 10px;
 }
 
-.hero h1, .hero h2, .hero h3 { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); margin: 10px 0; }
+.hero h1, .hero h2, .hero h3 { 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  margin: 10px 0;}
